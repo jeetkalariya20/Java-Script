@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>palindrom</title>
+</head>
+<body>
+		<script type="text/javascript">
+			num=parseInt(prompt("Enter number:"))
+				sum=0
+				a=num
+
+				while(num!=0)
+				{
+					r=num%10;
+					sum=sum*10+r;
+					num=parseInt(num/10);
+				}
+
+				if (sum==a) {
+					document.write(a+" is palindrom");
+				}
+				else
+				{
+					document.write(a+" is not palindrom");
+				}
+
+		</script>
+</body>
+</html>

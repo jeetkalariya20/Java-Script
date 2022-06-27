@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Armstrong</title>
+</head>
+<body>
+	<script type="text/javascript">
+				num=parseInt(prompt("Enter number:"))
+				sum=0
+				a=num
+
+				while(num!=0)
+				{
+					r=num%10;
+					sum=sum+r*r*r;
+					num=parseInt(num/10);
+				}
+
+				if (sum==a) {
+					document.write(a+" is arm");
+				}
+				else
+				{
+					document.write(a+" is not arm");
+				}
+
+	</script>
+</body>
+</html>
